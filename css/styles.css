@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Maven Pro;
+}
+
+/*Main pannel*/
+.main-pannel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-pannel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  -moz-box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.chat-input {
+  width: 100%;
+  border: solid 1px #ccc;
+}
+
+/*Messages*/
+.message-list ul {
+  margin: 0;
+  padding: 10px;
+  border-bottom: solid 1px rgba(77, 77, 77, 0.3);
+  display: flex;
+}
+
+.self-message, .other-message {
+}
+
+.self-pseudo, .other-pseudo {
+  width: 100px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.self-pseudo {
+  color: #4d0028;
+}
